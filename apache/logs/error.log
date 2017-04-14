@@ -1,0 +1,273 @@
+[Wed Apr 13 12:00:20.895517 2016] [ssl:warn] [pid 12072:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:00:21.441489 2016] [ssl:warn] [pid 12072:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:00:22.689425 2016] [mpm_winnt:notice] [pid 12072:tid 252] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Wed Apr 13 12:00:22.689425 2016] [mpm_winnt:notice] [pid 12072:tid 252] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Wed Apr 13 12:00:22.689425 2016] [core:notice] [pid 12072:tid 252] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Wed Apr 13 12:00:22.689425 2016] [mpm_winnt:notice] [pid 12072:tid 252] AH00418: Parent: Created child process 11680
+[Wed Apr 13 12:00:23.562980 2016] [ssl:warn] [pid 11680:tid 264] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:00:24.108952 2016] [ssl:warn] [pid 11680:tid 264] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:00:24.249345 2016] [mpm_winnt:notice] [pid 11680:tid 264] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 13 12:12:25.528700 2016] [ssl:warn] [pid 12572:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:12:25.606706 2016] [core:warn] [pid 12572:tid 252] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 13 12:12:25.793919 2016] [ssl:warn] [pid 12572:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:12:25.934329 2016] [mpm_winnt:notice] [pid 12572:tid 252] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Wed Apr 13 12:12:25.934329 2016] [mpm_winnt:notice] [pid 12572:tid 252] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Wed Apr 13 12:12:25.934329 2016] [core:notice] [pid 12572:tid 252] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Wed Apr 13 12:12:25.934329 2016] [mpm_winnt:notice] [pid 12572:tid 252] AH00418: Parent: Created child process 13196
+[Wed Apr 13 12:12:26.511569 2016] [ssl:warn] [pid 13196:tid 264] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:12:26.729985 2016] [ssl:warn] [pid 13196:tid 264] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 13 12:12:26.761187 2016] [mpm_winnt:notice] [pid 13196:tid 264] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 13 12:12:37.323132 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Warning:  include(1.php): failed to open stream: No such file or directory in D:\\xampp\\htdocs\\sample_html\\sample.php on line 18, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.323132 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Warning:  include(): Failed opening '1.php' for inclusion (include_path='D:\\xampp\\php\\PEAR') in D:\\xampp\\htdocs\\sample_html\\sample.php on line 18, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.323132 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: aboutUs in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.323132 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: vision in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.323132 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: serviceOfferings in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.323132 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: engineeringServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.338733 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: specialServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.338733 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: ourStrengths in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.338733 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: qualitySystems in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:12:37.338733 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57938] PHP Notice:  Undefined variable: contact in D:\\xampp\\htdocs\\sample_html\\sample.php on line 104, referer: http://localhost/sample_html/sample.php?langCode=bu
+[Wed Apr 13 12:13:04.289464 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57958] script 'D:/xampp/htdocs/sample_html/sample_files/sample.php' not found or unable to stat, referer: http://localhost/sample_html/sample.php?langCode=fe
+[Wed Apr 13 12:13:07.803996 2016] [:error] [pid 13196:tid 1652] [client 127.0.0.1:57958] script 'D:/xampp/htdocs/sample_html/sample_files/sample.php' not found or unable to stat, referer: http://localhost/sample_html/sample.php?langCode=fe
+[Thu Apr 14 23:25:53.038202 2016] [ssl:warn] [pid 14200:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 14 23:25:53.178602 2016] [core:warn] [pid 14200:tid 256] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 14 23:25:53.365803 2016] [ssl:warn] [pid 14200:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 14 23:25:54.005404 2016] [mpm_winnt:notice] [pid 14200:tid 256] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Thu Apr 14 23:25:54.005404 2016] [mpm_winnt:notice] [pid 14200:tid 256] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Thu Apr 14 23:25:54.005404 2016] [core:notice] [pid 14200:tid 256] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Thu Apr 14 23:25:54.021004 2016] [mpm_winnt:notice] [pid 14200:tid 256] AH00418: Parent: Created child process 7596
+[Thu Apr 14 23:25:54.598205 2016] [ssl:warn] [pid 7596:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 14 23:25:54.816605 2016] [ssl:warn] [pid 7596:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 14 23:25:54.894605 2016] [mpm_winnt:notice] [pid 7596:tid 268] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 14 23:26:12.809537 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52643] PHP Parse error:  syntax error, unexpected '$file_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 18
+[Thu Apr 14 23:26:42.642171 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52645] PHP Parse error:  syntax error, unexpected '$file_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 18
+[Thu Apr 14 23:27:19.570437 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined index: langCode in D:\\xampp\\htdocs\\sample_html\\sample.php on line 17
+[Thu Apr 14 23:27:19.601637 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Warning:  include(.php): failed to open stream: No such file or directory in D:\\xampp\\htdocs\\sample_html\\sample.php on line 19
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Warning:  include(): Failed opening '.php' for inclusion (include_path='D:\\xampp\\php\\PEAR') in D:\\xampp\\htdocs\\sample_html\\sample.php on line 19
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: aboutUs in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: vision in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: serviceOfferings in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: engineeringServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: specialServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: ourStrengths in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: qualitySystems in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:19.617237 2016] [:error] [pid 7596:tid 1648] [client 127.0.0.1:52649] PHP Notice:  Undefined variable: contact in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined index: langCode in D:\\xampp\\htdocs\\sample_html\\sample.php on line 17
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: aboutUs in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: vision in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: serviceOfferings in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: engineeringServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: specialServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: ourStrengths in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: qualitySystems in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:27:54.654498 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52668] PHP Notice:  Undefined variable: contact in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: aboutUs in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: vision in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: serviceOfferings in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: engineeringServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: specialServices in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: ourStrengths in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: qualitySystems in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:28:37.573269 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52674] PHP Notice:  Undefined variable: contact in D:\\xampp\\htdocs\\sample_html\\sample.php on line 107
+[Thu Apr 14 23:31:53.333507 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52700] PHP Notice:  Undefined index: langCode in D:\\xampp\\htdocs\\sample_html\\sample.php on line 17
+[Thu Apr 14 23:32:40.666610 2016] [:error] [pid 7596:tid 1612] [client 127.0.0.1:52747] PHP Notice:  Undefined index: langCode in D:\\xampp\\htdocs\\sample_html\\sample.php on line 17
+[Thu Apr 14 23:34:44.751268 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52752] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 18
+[Thu Apr 14 23:35:28.904346 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52754] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 18
+[Thu Apr 14 23:36:23.511942 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52758] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 20
+[Thu Apr 14 23:37:04.072013 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52762] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 22
+[Thu Apr 14 23:37:22.237945 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52763] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 22
+[Thu Apr 14 23:38:01.630515 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52764] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 22
+[Thu Apr 14 23:38:01.833315 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52764] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 22
+[Thu Apr 14 23:38:25.407456 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52765] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 22
+[Thu Apr 14 23:38:27.763060 2016] [:error] [pid 7596:tid 1624] [client 127.0.0.1:52765] PHP Parse error:  syntax error, unexpected '$lang_name' (T_VARIABLE) in D:\\xampp\\htdocs\\sample_html\\sample.php on line 22
+[Thu Apr 14 23:43:06.038442 2016] [:error] [pid 7596:tid 1632] [client 127.0.0.1:52840] script 'D:/xampp/htdocs/sample_html/sample_files/sample.php' not found or unable to stat, referer: http://localhost/sample_html/sample.php
+[Thu Apr 14 23:50:29.454576 2016] [:error] [pid 7596:tid 1632] [client 127.0.0.1:52957] PHP Notice:  Array to string conversion in D:\\xampp\\htdocs\\sample_html\\sample.php on line 12
+[Fri Apr 15 00:00:27.639980 2016] [:error] [pid 7596:tid 1632] [client 127.0.0.1:53057] PHP Notice:  Undefined index: arrTest in D:\\xampp\\htdocs\\sample_html\\sample.php on line 12
+[Tue Apr 19 14:47:31.324803 2016] [ssl:warn] [pid 9912:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 19 14:47:31.543200 2016] [core:warn] [pid 9912:tid 256] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 19 14:47:31.730398 2016] [ssl:warn] [pid 9912:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 19 14:47:32.338790 2016] [mpm_winnt:notice] [pid 9912:tid 256] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Tue Apr 19 14:47:32.338790 2016] [mpm_winnt:notice] [pid 9912:tid 256] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Tue Apr 19 14:47:32.338790 2016] [core:notice] [pid 9912:tid 256] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Tue Apr 19 14:47:32.354390 2016] [mpm_winnt:notice] [pid 9912:tid 256] AH00418: Parent: Created child process 7184
+[Tue Apr 19 14:47:32.951183 2016] [ssl:warn] [pid 7184:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 19 14:47:33.153980 2016] [ssl:warn] [pid 7184:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 19 14:47:33.216379 2016] [mpm_winnt:notice] [pid 7184:tid 268] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 19 14:47:45.182452 2016] [:error] [pid 7184:tid 1652] [client ::1:62013] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\sample.php on line 55
+[Wed Apr 20 10:49:44.105956 2016] [ssl:warn] [pid 10220:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 20 10:49:44.339956 2016] [core:warn] [pid 10220:tid 256] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 20 10:49:44.573956 2016] [ssl:warn] [pid 10220:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 20 10:49:44.605156 2016] [mpm_winnt:notice] [pid 10220:tid 256] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Wed Apr 20 10:49:44.605156 2016] [mpm_winnt:notice] [pid 10220:tid 256] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Wed Apr 20 10:49:44.605156 2016] [core:notice] [pid 10220:tid 256] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Wed Apr 20 10:49:44.605156 2016] [mpm_winnt:notice] [pid 10220:tid 256] AH00418: Parent: Created child process 13156
+[Wed Apr 20 10:49:45.197956 2016] [ssl:warn] [pid 13156:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 20 10:49:45.463156 2016] [ssl:warn] [pid 13156:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 20 10:49:45.509956 2016] [mpm_winnt:notice] [pid 13156:tid 268] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 20 15:30:42.600958 2016] [:error] [pid 13156:tid 1652] [client ::1:59219] PHP Parse error:  syntax error, unexpected '}' in D:\\xampp\\htdocs\\sample_html\\index.php on line 9
+[Wed Apr 20 15:31:08.964802 2016] [:error] [pid 13156:tid 1652] [client ::1:59221] PHP Parse error:  syntax error, unexpected '=' in D:\\xampp\\htdocs\\sample_html\\index.php on line 7
+[Wed Apr 20 15:46:45.535202 2016] [:error] [pid 13156:tid 1652] [client ::1:59372] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\abc.php on line 3, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 15:51:33.286402 2016] [:error] [pid 13156:tid 1644] [client ::1:59469] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\inc1.php on line 4, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:30:03.748220 2016] [:error] [pid 13156:tid 1644] [client ::1:59316] PHP Notice:  Use of undefined constant localization - assumed 'localization' in D:\\xampp\\htdocs\\sample_html\\abc.php on line 2, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:30:03.749220 2016] [:error] [pid 13156:tid 1644] [client ::1:59316] PHP Notice:  Use of undefined constant php - assumed 'php' in D:\\xampp\\htdocs\\sample_html\\abc.php on line 3, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:30:03.771220 2016] [:error] [pid 13156:tid 1644] [client ::1:59316] PHP Warning:  include(localizationphp): failed to open stream: No such file or directory in D:\\xampp\\htdocs\\sample_html\\abc.php on line 3, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:30:03.771220 2016] [:error] [pid 13156:tid 1644] [client ::1:59316] PHP Warning:  include(): Failed opening 'localizationphp' for inclusion (include_path='D:\\xampp\\php\\PEAR') in D:\\xampp\\htdocs\\sample_html\\abc.php on line 3, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:42:09.574866 2016] [:error] [pid 13156:tid 1644] [client ::1:59453] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:42:09.574866 2016] [:error] [pid 13156:tid 1644] [client ::1:59453] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:43:29.231666 2016] [:error] [pid 13156:tid 1644] [client ::1:59473] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:43:29.232666 2016] [:error] [pid 13156:tid 1644] [client ::1:59473] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:43:57.679666 2016] [:error] [pid 13156:tid 1652] [client ::1:59475] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:43:57.700666 2016] [:error] [pid 13156:tid 1652] [client ::1:59475] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:44:38.325666 2016] [:error] [pid 13156:tid 1652] [client ::1:59484] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:44:38.326666 2016] [:error] [pid 13156:tid 1652] [client ::1:59484] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:46:06.967666 2016] [:error] [pid 13156:tid 1644] [client ::1:59497] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:46:06.967666 2016] [:error] [pid 13156:tid 1644] [client ::1:59497] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:46:27.637666 2016] [:error] [pid 13156:tid 1644] [client ::1:59499] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:46:27.653266 2016] [:error] [pid 13156:tid 1644] [client ::1:59499] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:47:37.588066 2016] [:error] [pid 13156:tid 1644] [client ::1:59509] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:47:37.588066 2016] [:error] [pid 13156:tid 1644] [client ::1:59509] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:48:42.780466 2016] [:error] [pid 13156:tid 1652] [client ::1:59522] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:48:42.780466 2016] [:error] [pid 13156:tid 1652] [client ::1:59522] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:50:39.479266 2016] [:error] [pid 13156:tid 1644] [client ::1:59528] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 9, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:50:39.479266 2016] [:error] [pid 13156:tid 1644] [client ::1:59528] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 9, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:50:39.479266 2016] [:error] [pid 13156:tid 1644] [client ::1:59528] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 9, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 18:50:39.479266 2016] [:error] [pid 13156:tid 1644] [client ::1:59528] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 9, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 20:12:09.832422 2016] [:error] [pid 13156:tid 1644] [client ::1:55879] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\abc.php on line 22, referer: http://localhost/sample_html/index.php
+[Wed Apr 20 20:18:07.095288 2016] [:error] [pid 13156:tid 1644] [client ::1:56066] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\abc.php on line 22
+[Wed Apr 20 20:18:24.014362 2016] [:error] [pid 13156:tid 1644] [client ::1:56069] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:18:24.015362 2016] [:error] [pid 13156:tid 1644] [client ::1:56069] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:18:24.016362 2016] [:error] [pid 13156:tid 1644] [client ::1:56069] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:18:24.016362 2016] [:error] [pid 13156:tid 1644] [client ::1:56069] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:20:46.420689 2016] [:error] [pid 13156:tid 1652] [client ::1:56107] PHP Fatal error:  Call to undefined function translateString() in D:\\xampp\\htdocs\\sample_html\\abc.php on line 18
+[Wed Apr 20 20:21:05.956192 2016] [:error] [pid 13156:tid 1644] [client ::1:56112] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:05.956192 2016] [:error] [pid 13156:tid 1644] [client ::1:56112] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:05.956192 2016] [:error] [pid 13156:tid 1644] [client ::1:56112] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:05.956192 2016] [:error] [pid 13156:tid 1644] [client ::1:56112] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:22.806028 2016] [:error] [pid 13156:tid 1644] [client ::1:56114] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:22.806028 2016] [:error] [pid 13156:tid 1644] [client ::1:56114] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:22.806028 2016] [:error] [pid 13156:tid 1644] [client ::1:56114] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:22.806028 2016] [:error] [pid 13156:tid 1644] [client ::1:56114] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:33.618006 2016] [:error] [pid 13156:tid 1644] [client ::1:56115] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:33.618006 2016] [:error] [pid 13156:tid 1644] [client ::1:56115] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:33.618006 2016] [:error] [pid 13156:tid 1644] [client ::1:56115] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:21:33.618006 2016] [:error] [pid 13156:tid 1644] [client ::1:56115] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10
+[Wed Apr 20 20:22:10.204993 2016] [:error] [pid 13156:tid 1644] [client ::1:56116] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:22:10.204993 2016] [:error] [pid 13156:tid 1644] [client ::1:56116] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:22:10.204993 2016] [:error] [pid 13156:tid 1644] [client ::1:56116] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:22:10.204993 2016] [:error] [pid 13156:tid 1644] [client ::1:56116] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:22:45.738868 2016] [:error] [pid 13156:tid 1644] [client ::1:56121] PHP Parse error:  syntax error, unexpected '$stringToTranslate' (T_VARIABLE), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:23:02.588704 2016] [:error] [pid 13156:tid 1644] [client ::1:56122] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 7
+[Wed Apr 20 20:23:02.604306 2016] [:error] [pid 13156:tid 1644] [client ::1:56122] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:23:02.604306 2016] [:error] [pid 13156:tid 1644] [client ::1:56122] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:23:02.604306 2016] [:error] [pid 13156:tid 1644] [client ::1:56122] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 7
+[Wed Apr 20 20:23:02.604306 2016] [:error] [pid 13156:tid 1644] [client ::1:56122] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Wed Apr 20 20:23:02.604306 2016] [:error] [pid 13156:tid 1644] [client ::1:56122] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11
+[Thu Apr 21 10:28:47.336247 2016] [ssl:warn] [pid 7060:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 21 10:28:47.492247 2016] [core:warn] [pid 7060:tid 260] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 21 10:28:47.679447 2016] [ssl:warn] [pid 7060:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 21 10:28:48.443849 2016] [mpm_winnt:notice] [pid 7060:tid 260] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Thu Apr 21 10:28:48.443849 2016] [mpm_winnt:notice] [pid 7060:tid 260] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Thu Apr 21 10:28:48.443849 2016] [core:notice] [pid 7060:tid 260] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Thu Apr 21 10:28:48.459449 2016] [mpm_winnt:notice] [pid 7060:tid 260] AH00418: Parent: Created child process 5312
+[Thu Apr 21 10:28:49.067850 2016] [ssl:warn] [pid 5312:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 21 10:28:49.286250 2016] [ssl:warn] [pid 5312:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 21 10:28:49.333050 2016] [mpm_winnt:notice] [pid 5312:tid 272] AH00354: Child: Starting 150 worker threads.
+[Thu Apr 21 10:29:06.946481 2016] [:error] [pid 5312:tid 1664] [client ::1:49345] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:29:06.946481 2016] [:error] [pid 5312:tid 1664] [client ::1:49345] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:29:06.946481 2016] [:error] [pid 5312:tid 1664] [client ::1:49345] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:29:06.946481 2016] [:error] [pid 5312:tid 1664] [client ::1:49345] PHP Notice:  Undefined variable: textToAppend in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:34:53.305338 2016] [:error] [pid 5312:tid 1664] [client ::1:49445] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 5, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:35:10.964569 2016] [:error] [pid 5312:tid 1664] [client ::1:49446] PHP Parse error:  syntax error, unexpected '$flagAppendText' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:35:37.671816 2016] [:error] [pid 5312:tid 1664] [client ::1:49447] PHP Parse error:  syntax error, unexpected '$flagAppendText' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:35:40.105421 2016] [:error] [pid 5312:tid 1664] [client ::1:49447] PHP Parse error:  syntax error, unexpected '$flagAppendText' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 6, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:36:00.962657 2016] [:error] [pid 5312:tid 1664] [client ::1:49451] PHP Fatal error:  Call to undefined function translateString() in D:\\xampp\\htdocs\\sample_html\\abc.php on line 18, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:36:41.070328 2016] [:error] [pid 5312:tid 1664] [client ::1:49452] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:36:41.070328 2016] [:error] [pid 5312:tid 1664] [client ::1:49452] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:36:41.085928 2016] [:error] [pid 5312:tid 1664] [client ::1:49452] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:36:41.085928 2016] [:error] [pid 5312:tid 1664] [client ::1:49452] PHP Notice:  Undefined variable: flagAppendText in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 11, referer: http://localhost/sample_html/index.php
+[Thu Apr 21 10:37:30.460014 2016] [:error] [pid 5312:tid 1664] [client ::1:49467] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\localization\\localization.php on line 10, referer: http://localhost/sample_html/index.php
+[Fri Apr 29 16:01:31.060027 2016] [ssl:warn] [pid 20956:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 16:01:31.122427 2016] [core:warn] [pid 20956:tid 260] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 29 16:01:31.294027 2016] [ssl:warn] [pid 20956:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 16:01:31.652827 2016] [mpm_winnt:notice] [pid 20956:tid 260] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Fri Apr 29 16:01:31.652827 2016] [mpm_winnt:notice] [pid 20956:tid 260] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Fri Apr 29 16:01:31.652827 2016] [core:notice] [pid 20956:tid 260] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Fri Apr 29 16:01:31.668427 2016] [mpm_winnt:notice] [pid 20956:tid 260] AH00418: Parent: Created child process 2324
+[Fri Apr 29 16:01:32.230027 2016] [ssl:warn] [pid 2324:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 16:01:32.432827 2016] [ssl:warn] [pid 2324:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 16:01:32.479627 2016] [mpm_winnt:notice] [pid 2324:tid 272] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 29 16:01:47.049427 2016] [:error] [pid 2324:tid 1664] [client ::1:60559] PHP Parse error:  syntax error, unexpected ';' in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 4
+[Fri Apr 29 16:02:20.600427 2016] [:error] [pid 2324:tid 1664] [client ::1:60563] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 4
+[Fri Apr 29 16:04:56.917227 2016] [:error] [pid 2324:tid 1664] [client ::1:60676] PHP Notice:  Undefined index: txtPalin in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 4, referer: http://localhost/sample_html/palindrome.php
+[Fri Apr 29 17:17:16.039224 2016] [ssl:warn] [pid 18120:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 17:17:16.070425 2016] [core:warn] [pid 18120:tid 260] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 29 17:17:16.288829 2016] [ssl:warn] [pid 18120:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 17:17:16.320029 2016] [mpm_winnt:notice] [pid 18120:tid 260] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Fri Apr 29 17:17:16.320029 2016] [mpm_winnt:notice] [pid 18120:tid 260] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Fri Apr 29 17:17:16.320029 2016] [core:notice] [pid 18120:tid 260] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Fri Apr 29 17:17:16.320029 2016] [mpm_winnt:notice] [pid 18120:tid 260] AH00418: Parent: Created child process 12956
+[Fri Apr 29 17:17:17.006443 2016] [ssl:warn] [pid 12956:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 17:17:17.256047 2016] [ssl:warn] [pid 12956:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 17:17:17.287248 2016] [mpm_winnt:notice] [pid 12956:tid 272] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 29 17:17:57.060120 2016] [:error] [pid 12956:tid 1664] [client ::1:55083] PHP Parse error:  syntax error, unexpected '$txtPalin' (T_VARIABLE), expecting ',' or ';' in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 5, referer: http://localhost/sample_html/palindrome.php
+[Fri Apr 29 17:22:29.267423 2016] [:error] [pid 12956:tid 1664] [client ::1:55128] PHP Notice:  Undefined index: name in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 2
+[Fri Apr 29 17:22:29.296423 2016] [:error] [pid 12956:tid 1664] [client ::1:55128] PHP Notice:  Undefined index: age in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 2
+[Fri Apr 29 17:26:26.072023 2016] [:error] [pid 12956:tid 1664] [client ::1:55166] PHP Notice:  Undefined variable: txtPalin in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 14
+[Fri Apr 29 17:44:52.277911 2016] [:error] [pid 12956:tid 1660] [client ::1:51404] PHP Notice:  Undefined offset: 5 in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 29, referer: http://localhost/sample_html/palindrome.php
+[Fri Apr 29 17:44:52.277911 2016] [:error] [pid 12956:tid 1660] [client ::1:51404] PHP Notice:  Undefined offset: 5 in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 29, referer: http://localhost/sample_html/palindrome.php
+[Fri Apr 29 17:44:52.277911 2016] [:error] [pid 12956:tid 1660] [client ::1:51404] PHP Notice:  Undefined offset: 5 in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 29, referer: http://localhost/sample_html/palindrome.php
+[Fri Apr 29 17:44:52.277911 2016] [:error] [pid 12956:tid 1660] [client ::1:51404] PHP Notice:  Undefined offset: 5 in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 29, referer: http://localhost/sample_html/palindrome.php
+[Fri Apr 29 17:44:52.277911 2016] [:error] [pid 12956:tid 1660] [client ::1:51404] PHP Notice:  Undefined offset: 5 in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 29, referer: http://localhost/sample_html/palindrome.php
+[Fri Apr 29 17:53:44.076263 2016] [:error] [pid 12956:tid 1660] [client ::1:49172] PHP Parse error:  syntax error, unexpected ';' in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 4
+[Fri Apr 29 17:54:30.940565 2016] [:error] [pid 12956:tid 1660] [client ::1:49190] PHP Parse error:  syntax error, unexpected ';' in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 4
+[Fri Apr 29 17:54:33.733018 2016] [:error] [pid 12956:tid 1660] [client ::1:49190] PHP Parse error:  syntax error, unexpected ';' in D:\\xampp\\htdocs\\sample_html\\palindrome.php on line 4
+[Mon May 02 18:50:50.412816 2016] [ssl:warn] [pid 5476:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 02 18:50:50.459626 2016] [core:warn] [pid 5476:tid 256] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 02 18:50:50.678074 2016] [ssl:warn] [pid 5476:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 02 18:50:50.880918 2016] [mpm_winnt:notice] [pid 5476:tid 256] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Mon May 02 18:50:50.880918 2016] [mpm_winnt:notice] [pid 5476:tid 256] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Mon May 02 18:50:50.880918 2016] [core:notice] [pid 5476:tid 256] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Mon May 02 18:50:50.880918 2016] [mpm_winnt:notice] [pid 5476:tid 256] AH00418: Parent: Created child process 6404
+[Mon May 02 18:50:51.598674 2016] [ssl:warn] [pid 6404:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 02 18:50:51.863932 2016] [ssl:warn] [pid 6404:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 02 18:50:51.926346 2016] [mpm_winnt:notice] [pid 6404:tid 268] AH00354: Child: Starting 150 worker threads.
+[Wed May 04 10:41:07.202021 2016] [ssl:warn] [pid 21628:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 04 10:41:07.233219 2016] [core:warn] [pid 21628:tid 256] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 04 10:41:07.404808 2016] [ssl:warn] [pid 21628:tid 256] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 04 10:41:07.451605 2016] [mpm_winnt:notice] [pid 21628:tid 256] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Wed May 04 10:41:07.451605 2016] [mpm_winnt:notice] [pid 21628:tid 256] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Wed May 04 10:41:07.451605 2016] [core:notice] [pid 21628:tid 256] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Wed May 04 10:41:07.451605 2016] [mpm_winnt:notice] [pid 21628:tid 256] AH00418: Parent: Created child process 18200
+[Wed May 04 10:41:07.997570 2016] [ssl:warn] [pid 18200:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 04 10:41:08.215956 2016] [ssl:warn] [pid 18200:tid 268] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 04 10:41:08.247154 2016] [mpm_winnt:notice] [pid 18200:tid 268] AH00354: Child: Starting 150 worker threads.
+[Tue May 10 12:20:00.847091 2016] [ssl:warn] [pid 8484:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 10 12:20:00.897096 2016] [core:warn] [pid 8484:tid 260] AH00098: pid file D:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 10 12:20:01.103117 2016] [ssl:warn] [pid 8484:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 10 12:20:01.307137 2016] [mpm_winnt:notice] [pid 8484:tid 260] AH00455: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 configured -- resuming normal operations
+[Tue May 10 12:20:01.307137 2016] [mpm_winnt:notice] [pid 8484:tid 260] AH00456: Apache Lounge VC11 Server built: Oct 13 2015 10:54:13
+[Tue May 10 12:20:01.307137 2016] [core:notice] [pid 8484:tid 260] AH00094: Command line: 'd:\\xampp\\apache\\bin\\httpd.exe -d D:/xampp/apache'
+[Tue May 10 12:20:01.310138 2016] [mpm_winnt:notice] [pid 8484:tid 260] AH00418: Parent: Created child process 11676
+[Tue May 10 12:20:02.074214 2016] [ssl:warn] [pid 11676:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 10 12:20:02.293236 2016] [ssl:warn] [pid 11676:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 10 12:20:02.357242 2016] [mpm_winnt:notice] [pid 11676:tid 272] AH00354: Child: Starting 150 worker threads.
+[Tue May 10 12:22:56.846484 2016] [:error] [pid 11676:tid 1660] [client ::1:63785] PHP Notice:  Undefined index: testMsg in D:\\xampp\\htdocs\\sample_html\\index.php on line 19
+[Tue May 10 15:03:49.202646 2016] [:error] [pid 11676:tid 1660] [client ::1:64904] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:04:13.365497 2016] [:error] [pid 11676:tid 1660] [client ::1:64906] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:04:36.670403 2016] [:error] [pid 11676:tid 1660] [client ::1:64907] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:05:23.280289 2016] [:error] [pid 11676:tid 1660] [client ::1:64908] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:05:47.266070 2016] [:error] [pid 11676:tid 1660] [client ::1:64909] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:06:01.836096 2016] [:error] [pid 11676:tid 1660] [client ::1:64910] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:06:36.061619 2016] [:error] [pid 11676:tid 1660] [client ::1:64936] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:07:35.574093 2016] [:error] [pid 11676:tid 1660] [client ::1:64939] PHP Notice:  Undefined variable: objInc in D:\\xampp\\htdocs\\sample_html\\index.php on line 25
+[Tue May 10 15:07:35.574093 2016] [:error] [pid 11676:tid 1660] [client ::1:64939] PHP Fatal error:  Call to a member function checkGlobals() on null in D:\\xampp\\htdocs\\sample_html\\index.php on line 25
+[Tue May 10 15:08:11.983559 2016] [:error] [pid 11676:tid 1660] [client ::1:64941] PHP Fatal error:  Class 'cIncluding' not found in D:\\xampp\\htdocs\\sample_html\\index.php on line 8
+[Tue May 10 15:08:36.318935 2016] [:error] [pid 11676:tid 1660] [client ::1:64946] PHP Notice:  Undefined property: cIncluding::$Test again in D:\\xampp\\htdocs\\sample_html\\index.php on line 26
+[Tue May 10 15:16:11.643489 2016] [:error] [pid 11676:tid 1660] [client ::1:64962] PHP Fatal error:  Cannot access empty property in D:\\xampp\\htdocs\\sample_html\\index.php on line 26
+[Tue May 10 15:16:20.223104 2016] [:error] [pid 11676:tid 1660] [client ::1:64963] PHP Notice:  Undefined property: cIncluding::$Test again in D:\\xampp\\htdocs\\sample_html\\index.php on line 26
+[Tue May 10 15:17:10.764836 2016] [:error] [pid 11676:tid 1660] [client ::1:64966] PHP Parse error:  syntax error, unexpected '$testMsg' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\cIncluding.php on line 3
+[Tue May 10 15:17:23.665457 2016] [:error] [pid 11676:tid 1660] [client ::1:64968] PHP Notice:  Undefined variable: testMsg in D:\\xampp\\htdocs\\sample_html\\cIncluding.php on line 7
+[Tue May 10 15:18:45.454126 2016] [:error] [pid 11676:tid 1660] [client ::1:64975] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\cIncluding.php on line 3
+[Tue May 10 15:19:11.692653 2016] [:error] [pid 11676:tid 1660] [client ::1:64977] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\cIncluding.php on line 3
+[Tue May 10 15:19:12.831424 2016] [:error] [pid 11676:tid 1660] [client ::1:64977] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\cIncluding.php on line 3
+[Tue May 10 15:19:50.286064 2016] [:error] [pid 11676:tid 1660] [client ::1:64978] PHP Parse error:  syntax error, unexpected '$testMsg' (T_VARIABLE), expecting function (T_FUNCTION) in D:\\xampp\\htdocs\\sample_html\\cIncluding.php on line 3

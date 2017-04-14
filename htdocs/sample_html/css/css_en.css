@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+.lbl {
+   font-style: Arial;
+   font-size: 20px;
+   color: Green;
+}
+
+a {
+   color: Green;
+}
